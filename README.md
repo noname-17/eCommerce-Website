@@ -1,59 +1,42 @@
-# Thapa eCommerce Store
+<div align="center">
 
-A vanilla JavaScript eCommerce website built with Vite.
+# ⚡ QuickTech Store
+
+### A modern eCommerce web app built with Vanilla JavaScript & Vite
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-quicktechstore.netlify.app-brightgreen?style=for-the-badge)](https://quicktechstore.netlify.app/)
+[![Built With](https://img.shields.io/badge/Built_With-Vanilla_JS-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Bundler](https://img.shields.io/badge/Bundler-Vite-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![Deploy](https://img.shields.io/badge/Deploy-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://netlify.com/)
+
+</div>
+
+---
+
+## 🖼️ Screenshots
+
+| Hero Section | Product Listings |
+|:---:|:---:|
+| ![Hero Section](./scr-github/hero-section.png) | ![Products](./scr-github/products-1.png) |
+
+| Offers & Deals | Cart Page |
+|:---:|:---:|
+| ![Offers](./scr-github/offers.png) | ![Cart](./scr-github/cart.png) |
+
+> 🔗 **Live Preview:** [quicktechstore.netlify.app](https://quicktechstore.netlify.app/)
+
+---
+
+## ✨ Features
+
+- 🛒 **Add to Cart** — persistent cart using `localStorage`
+- ➕➖ **Quantity Controls** — inline increment/decrement on product cards and cart page
+- 🗑️ **Remove Items** — delete individual products from cart
+- 💰 **Live Cart Totals** — prices and counts update in real time
+- 🔔 **Toast Notifications** — feedback on add/remove actions
+- 📱 **Responsive Design** — mobile-friendly layout
+- ⚡ **Vite Bundler** — fast dev server and optimized production builds
+
+---
 
 ## 📁 Project Structure
-
-```
-ecom-project/
-├── index.html              # Home page
-├── about.html              # About page
-├── contact.html            # Contact page
-├── products.html           # Products listing page
-├── addToCart.html          # Cart page
-├── main.js                 # Main entry point (loaded by index.html & products.html)
-├── vite.config.js          # Vite configuration
-├── package.json
-├── .gitignore
-├── public/
-│   └── images/             # Static images (logo, product images, etc.)
-└── src/
-    ├── style.css           # Global styles
-    ├── api/
-    │   └── products.json   # Product data
-    └── js/
-        ├── addToCart.js              # Add product to localStorage cart
-        ├── fetchQuantityFromCartLS.js # Get quantity/price from cart LS
-        ├── footer.js                 # Dynamic footer injection
-        ├── getCartProducts.js        # Read cart from localStorage
-        ├── homeProductCards.js       # Render product cards on home/products page
-        ├── homeQuantityToggle.js     # +/- quantity toggle on product cards
-        ├── incrementDecrement.js     # +/- quantity in cart page
-        ├── removeProdFromCart.js     # Remove item from cart
-        ├── showAddToCartCards.js     # Render cart page products (entry for addToCart.html)
-        ├── showToast.js              # Toast notification utility
-        ├── updateCartProductTotal.js # Recalculate cart totals
-        └── updateCartValue.js        # Update cart count in navbar
-```
-
-## 🚀 Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## ⚠️ Images
-
-Place your images inside the `public/images/` folder. They are referenced in `products.json` as `../images/<name>.png`. Vite serves the `public/` folder at the root, so in production they'll be at `/images/<name>.png`.
-
-Update `products.json` image paths to `/images/<name>.png` if needed after moving images in.
