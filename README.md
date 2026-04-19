@@ -58,7 +58,7 @@ git clone https://github.com/your-username/ecom-project.git<div align="center">
 
 ### A modern eCommerce web app built with Vanilla JavaScript & Vite
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-quicktechstore.netlify.app-brightgreen?style=for-the-badge)](https://quicktechstore.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-quicktechstore.netlify.app-brightgreen?style=for-the-badge)](https://quicktechstore.netlify.app/)
 [![Built With](https://img.shields.io/badge/Built_With-Vanilla_JS-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Bundler](https://img.shields.io/badge/Bundler-Vite-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 [![Deploy](https://img.shields.io/badge/Deploy-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://netlify.com/)
